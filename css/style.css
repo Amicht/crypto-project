@@ -1,0 +1,54 @@
+.top-title{
+    background-image: linear-gradient(rgb(3, 219, 154),rgba(157, 255, 0, 0.877));
+    height: 150px;
+    color: antiquewhite;
+}
+.top-title h1{
+    color: rgb(192, 169, 42);
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.title-img{
+    display: none;
+}
+.coin-currency{
+    text-align: center;
+    display: inline-block;
+}
+div .more-cards{
+    margin: auto;
+    padding: 0;
+}
+#more-cards-btn{
+    display: block;
+}
+.about img{
+    display: none;
+}
+.about h2{
+    color: rgb(192, 169, 42);
+    text-align: left;
+}
+.about{
+    text-align: justify;
+    margin-left: 0;
+    background-color: black;
+    color: rgb(191, 214, 235);
+}
+.about span{
+    text-align: left;
+    color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and  (min-width:575px){
+    .title-img{
+        display: block;
+        height: 150px;
+    }
+}
+@media screen and  (min-width:776px){
+    .about img{
+        display: block;
+    }
+}
